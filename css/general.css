@@ -9,12 +9,14 @@ main{
   height: calc(100vh - 80px);
 }
 
-aside{
+.aside-col{
   width: 230px;
 }
 
 .container{
   width: 100%;
+  position: relative;
+  padding-top: 80px;
 }
 
 footer{
