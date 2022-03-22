@@ -64,19 +64,40 @@ main .container nav ul li a{
 /* section & card */
 
 
-main .container .section{
+main .container .section-row{
   width: 100%;
   min-height: 200px;
   
 }
 
-main .container .section .row-bottom{
+main .container .section-row .bottom{
   justify-content: space-between;
 }
 
-main .container .section .card{
-  width: calc(90% / 6);
-  
+main .container .section-row .card{
+  display: inline-block;
+  width: calc(70%/6);
+  text-align: center;
+}
+
+main .container .section-row .card p{
+  font-size: 0.7rem;
+  color: white;
+}
+
+main .container .section-row .card p.title{
+  font-weight: bold;
+}
+
+main .container .section-row h2{
+  font-size: 1.8rem;
+  color: white;
+  margin: 10px 0;
+}
+
+main .container .section-row .card img{
+  width: 100%;
+  margin-bottom: 5px;
 }
 
 
@@ -91,6 +112,16 @@ main .container .section .card{
 
 @media screen and (max-width: 768px ) {
   
+  main .container .section-row .bottom{
+    flex-wrap: wrap;
+  }
+
+  main .container .section-row .card{
+    width: calc(70%/4);
+    text-align: center;
+  }
+
+
 }
 
 @media screen and (max-width: 568px){
