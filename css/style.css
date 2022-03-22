@@ -61,30 +61,26 @@ main .container nav ul li a{
 }
 
 
-/* section & card */
+/* section-row & card */
 
 
 main .container .section-row{
   width: 100%;
-  /* min-height: 200px; */
-  
-}
-
-main .container .section-row .bottom{
-  /* justify-content: space-between; */
+  min-height: 200px;
+  margin-bottom: 15px;
 }
 
 main .container .section-row .card{
-  width: calc((100%/6)-2%);
+  width: calc((100% / 6) - 2%);
   margin-right: 2%;
   text-align: center;
 }
 
 
 main .container .section-row h2{
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   color: white;
-  margin: 10px 0;
+  margin: 7px 0;
 }
 
 main .container .section-row .card img{
@@ -92,14 +88,33 @@ main .container .section-row .card img{
   margin-bottom: 5px;
 }
 
-main .container .section-row .card p{
+main .container .section-row .card p.title{
+  font-weight: bold;
   font-size: 0.7rem;
+  color: white;
+  margin-bottom: 5px;
+}
+
+main .container .section-row p.subtitle{
+  font-size: 0.65rem;
   color: white;
 }
 
-main .container .section-row .card p.title{
-  font-weight: bold;
+/* section-row Suggestion */
+
+.container .section-row .top{
+  margin-bottom: 15px;
 }
+
+.container .section-row.suggestions .bottom .card{
+  width: calc((100% / 5) - 2%);
+}
+
+
+
+
+
+
 
 
 /* FOOTER */
@@ -110,21 +125,32 @@ main .container .section-row .card p.title{
 
 /* MEDIA */
 
-@media screen and (max-width: 768px ) {
-  
+@media screen and (max-width: 768px) and (min-width: 568px){
+
+  /* section-row recently */
   main .container .section-row .bottom{
     flex-wrap: wrap;
   }
 
-  main .container .section-row .card{
-    width: calc(100%/4);
-    text-align: center;
+  main .container .section-row.recently .card,
+  main .container .section-row.suggestions .bottom .card{
+    width: calc((100% / 4) - 2%);
+    margin-bottom: 10px;
   }
+ 
 
 
 }
 
 @media screen and (max-width: 568px){
+
+  /* section-row recently */
+  main .container .section-row.recently .card{
+    width: calc((100% / 2) - 2%);
+  }
+
+  /* section-row suggestions */
+
 
 }
 
