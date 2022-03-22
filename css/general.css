@@ -10,11 +10,12 @@ body{
 main{
   width: 100%;
   height: calc(100vh - 80px);
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 
 .aside-col{
   width: 215px;
+  flex-shrink: 0;
 }
 
 .container{

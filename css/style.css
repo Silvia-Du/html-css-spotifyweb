@@ -6,7 +6,25 @@
 
 
 /* ASIDE */
+main .aside-col{
+  /* flex-direction: column; */
+}
 
+main .aside-col .logo{
+  height: 70px;
+}
+
+main .aside-col .menu{
+  height: 100px;
+}
+
+main .aside-col .playlist{
+  height: calc(100% - 270px)
+}
+
+main .aside-col .bottom{
+  height: 100px;
+}
 
 
 
@@ -26,7 +44,7 @@
   padding-right: 3px;
   justify-content: flex-end;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .overlay .btn{
@@ -67,7 +85,6 @@ main .container nav ul li a{
 
 main .container .section-row{
   width: 100%;
-  min-height: 200px;
   margin-bottom: 20px;
 }
 
@@ -93,7 +110,7 @@ main .container .section-row .card p.title{
   font-weight: bold;
   font-size: 0.7rem;
   color: white;
-  margin-bottom: 5px;
+  margin: 5px auto;
 }
 
 main .container .section-row p.subtitle{
@@ -104,7 +121,7 @@ main .container .section-row p.subtitle{
 /* section-row Suggestion */
 
 .container .section-row .top{
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .container .section-row.suggestions .bottom .card,
@@ -118,10 +135,14 @@ main .container .section-row.popular .bottom .card img{
   border-radius: 50%;
 }
 
+/* play-overlay */
+
+.container .section-row .bottom .play-overlay{
+  width: 100%;
+
+}
+
 /* FOOTER */
-
-
-
 
 
 /* MEDIA */
@@ -139,8 +160,6 @@ main .container .section-row.popular .bottom .card img{
     width: calc((100% / 4) - 2%);
     margin-bottom: 20px;
   }
- 
-
 
 }
 
