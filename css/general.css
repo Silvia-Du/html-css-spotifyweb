@@ -19,9 +19,10 @@ main{
 
 .container{
   width: 100%;
-  position: relative;
   padding: 70px 15px;
+  position: relative;
   overflow: auto;
+  background-color: #141922;
 }
 
 footer{
