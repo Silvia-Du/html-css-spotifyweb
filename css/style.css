@@ -6,9 +6,6 @@
 
 
 /* ASIDE */
-main .aside-col{
-
-}
 
 main .aside-col .logo{
   height: 70px;
@@ -19,11 +16,18 @@ main .aside-col .menu{
 }
 
 main .aside-col .playlist{
-  height: 570px;
+  height: calc(100% - 270px);
 }
 
 main .aside-col .bottom{
+ 
   height: 100px;
+  width: 100%;
+  
+}
+
+main .aside-col .logo img{
+  width: 73%;
 }
 
 
@@ -38,10 +42,10 @@ main .aside-col .bottom{
 .overlay{
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  right: 0;
+  width: calc(100% - 215px);
   height: 70px;
-  padding-right: 3px;
+  padding-right: 20px;
   justify-content: flex-end;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.3);

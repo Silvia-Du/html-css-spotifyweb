@@ -8,6 +8,7 @@ body{
 }
 
 main{
+  position: relative;
   width: 100%;
   height: calc(100vh - 80px);
   font-size: 0.7rem;
@@ -15,12 +16,14 @@ main{
 
 .aside-col{
   width: 215px;
+  padding: 10px;
   flex-shrink: 0;
   position: relative;
   z-index: 988;
 }
 
 .container{
+  /* position: relative; */
   width: 100%;
   padding: 70px 15px;
   overflow: auto;
