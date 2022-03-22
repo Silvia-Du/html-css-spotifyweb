@@ -23,7 +23,6 @@ main{
 }
 
 .container{
-  /* position: relative; */
   width: 100%;
   padding: 70px 15px;
   overflow: auto;
@@ -40,6 +39,10 @@ footer{
 
 li{
   list-style: none;
+  display: inline-block;
+}
+
+.container nav li{
   display: inline-block;
 }
 
