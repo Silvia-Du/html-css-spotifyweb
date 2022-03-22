@@ -7,7 +7,7 @@
 
 /* ASIDE */
 main .aside-col{
-  /* flex-direction: column; */
+
 }
 
 main .aside-col .logo{
@@ -19,7 +19,7 @@ main .aside-col .menu{
 }
 
 main .aside-col .playlist{
-  height: calc(100% - 270px)
+  height: 570px;
 }
 
 main .aside-col .bottom{
