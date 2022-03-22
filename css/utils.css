@@ -1,0 +1,17 @@
+.debug{
+  background-color: rgba(240, 138, 138, 0.466);
+  border: 1px solid black;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
