@@ -66,28 +66,21 @@ main .container nav ul li a{
 
 main .container .section-row{
   width: 100%;
-  min-height: 200px;
+  /* min-height: 200px; */
   
 }
 
 main .container .section-row .bottom{
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 main .container .section-row .card{
-  display: inline-block;
-  width: calc(70%/6);
+  /* width: calc(75%/6); */
+  width: 210px;
+  margin-right: 3%;
   text-align: center;
 }
 
-main .container .section-row .card p{
-  font-size: 0.7rem;
-  color: white;
-}
-
-main .container .section-row .card p.title{
-  font-weight: bold;
-}
 
 main .container .section-row h2{
   font-size: 1.8rem;
@@ -100,6 +93,14 @@ main .container .section-row .card img{
   margin-bottom: 5px;
 }
 
+main .container .section-row .card p{
+  font-size: 0.7rem;
+  color: white;
+}
+
+main .container .section-row .card p.title{
+  font-weight: bold;
+}
 
 
 /* FOOTER */
