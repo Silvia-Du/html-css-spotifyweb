@@ -14,10 +14,7 @@
 
 /* CONTAINER */
 
-main .container .section{
-  width: 100%;
-  min-height: 200px;
-}
+
 
 /* overlay */
 .overlay{
@@ -43,7 +40,7 @@ main .container .section{
   border-radius: 20px; 
 }
 
-/* main-section nav */
+/* main-container nav */
 
 main .container nav{
   justify-content: center;
@@ -63,11 +60,43 @@ main .container nav ul li a{
   font-weight: bold;
 }
 
+
+/* section & card */
+
+
+main .container .section{
+  width: 100%;
+  min-height: 200px;
+  
+}
+
+main .container .section .row-bottom{
+  justify-content: space-between;
+}
+
+main .container .section .card{
+  width: calc(90% / 6);
+  
+}
+
+
+
 /* FOOTER */
 
 
+
+
+
+/* MEDIA */
+
+@media screen and (max-width: 768px ) {
+  
+}
+
+@media screen and (max-width: 568px){
+
+}
+
 @media screen and (max-width: 420px){
-
-
 
 }

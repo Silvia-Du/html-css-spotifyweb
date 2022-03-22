@@ -10,7 +10,7 @@ body{
 main{
   width: 100%;
   height: calc(100vh - 80px);
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 
 .aside-col{
@@ -20,7 +20,7 @@ main{
 .container{
   width: 100%;
   position: relative;
-  padding-top: 70px;
+  padding: 70px 15px;
   overflow: auto;
 }
 
