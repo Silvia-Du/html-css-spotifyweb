@@ -210,6 +210,43 @@ main .container .section-row.popular .bottom .card img{
 
 /* FOOTER */
 
+footer{
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7px;
+}
+
+footer .player-left{
+  align-items: center;
+}
+
+footer .player-left .song{
+  margin-right: 35px;
+}
+
+footer .player-left i{
+  color: #a3a3a3;
+  margin-right: 10px;
+}
+
+footer .player-left .title{
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: white;
+}
+
+footer .player-left .subtitle{
+  font-size: 0.6rem;
+  color: #a3a3a3;
+}
+
+footer img{
+  width: 42px;
+  margin-right: 10px;
+}
+
+
+
 
 /* MEDIA */
 
