@@ -8,7 +8,6 @@ body{
 }
 
 main{
-  position: relative;
   width: 100%;
   height: calc(100vh - 80px);
   font-size: 0.7rem;
@@ -34,7 +33,7 @@ footer{
   height: 80px;
   flex-shrink: 0;
   position: relative;
-  z-index: 999;
+  z-index: 990;
 }
 
 li{
