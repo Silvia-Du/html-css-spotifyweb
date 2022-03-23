@@ -21,3 +21,15 @@
   font-weight: bold;
   font-size: 0.8rem;
 }
+
+/* HOVER RULES */
+
+footer .player-center .bottom:hover .status-point,
+footer .player-right .status-bar:hover .status-point{
+  display: block;
+}
+
+footer .player-center .bottom:hover .avanzamento,
+footer .player-right .status-bar:hover .avanzamento{
+  background-color: #b6f54d;
+}

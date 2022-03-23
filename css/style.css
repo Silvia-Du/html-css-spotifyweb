@@ -211,9 +211,7 @@ main .container .section-row.popular .bottom .card img{
 /* FOOTER */
 
 footer{
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 7px;
+ 
 }
 /*  footer left */
 footer .player-left{
@@ -224,9 +222,11 @@ footer .player-left .song{
   margin-right: 35px;
 }
 
-footer .player-left i{
+footer .player-left i,
+footer .player-right i{
   color: #a3a3a3;
-  margin-right: 10px;
+  margin-right: 15px;
+  font-size: 0.75rem;
 }
 
 footer .player-left .title{
@@ -249,6 +249,7 @@ footer img{
 
 footer .player-center{
   width: 45%;
+  margin: 0 10px;
 }
 
 footer .player-center .top{
@@ -256,18 +257,24 @@ footer .player-center .top{
 }
 
 footer .player-center .top,
-footer .player-center .bottom{
+footer .player-center .bottom,
+footer .player-right{
   justify-content: center;
   align-items: center;
 }
 
 footer .player-center .top i{
   color: white;
-  margin: 0 15px;
+  margin: 0 13px;
+  font-size: 0.9rem;
 }
 
 footer .player-center .top i.fa-circle-play{
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+}
+
+footer .player-center .bottom{
+  position: relative;
 }
 
 footer .player-center .bottom span{
@@ -276,21 +283,62 @@ footer .player-center .bottom span{
 }
 
 footer .player-center .bottom .status-bar{
-  height: 7px;
-  width: 90%;
-  background-color: #969494;
-  border-radius: 10px;
+  width: 85%;
   margin: 0 10px;
 }
 
 footer .player-center .bottom .status-bar .avanzamento{
-  height: 100%;
   width: 35%;
-  background-color: #c4bebe;
-  border-radius: 10px;
-  
 }
 
+footer .player-center .bottom .status-point{
+  position: absolute;
+  top: 0;
+  left: 35%;
+}
+
+/* condivisi */
+footer .player-center .bottom .status-bar,
+footer .player-right .status-bar{
+  height: 4px;
+  background-color: #969494;
+  border-radius: 10px;
+}
+
+
+footer .player-center .bottom .status-bar .avanzamento,
+footer .player-right .status-bar .avanzamento{
+  height: 100%;
+  background-color: #c4bebe;
+  border-radius: 10px;
+}
+
+
+footer .player-center .bottom .status-point,
+footer .player-right .status-point{
+  
+  width: 9px;
+  height: 9px;
+  background-color: white;
+  border-radius: 50%;
+  display: none;
+}
+
+/* footer right */
+footer .player-right .status-bar{
+  position: relative;
+  width: 90px;
+}
+
+footer .player-right .status-bar .avanzamento{
+  width: 35%;
+}
+
+footer .player-right .status-point{
+  position: absolute;
+  top: -3px;
+  left: 31%;
+}
 
 
 
