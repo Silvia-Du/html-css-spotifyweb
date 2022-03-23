@@ -16,6 +16,11 @@
   flex-wrap: wrap;
 }
 
+.nav-menu-active{
+  
+}
+
+
 .active{
   color: white;
   font-weight: bold;
@@ -24,6 +29,21 @@
 
 /* HOVER RULES */
 
+/* overlay */
+
+.overlay .btn:hover{
+  padding: 10px 37px;
+  font-size: 0.8rem;
+}
+
+/* nav */
+
+.container nav ul li:hover a{
+  color: white;
+}
+
+
+/* footer */
 footer .player-center .bottom:hover .status-point,
 footer .player-right .status-bar:hover .status-point{
   display: block;

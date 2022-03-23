@@ -117,7 +117,6 @@ main .aside-col .bottom .profile img{
   display: inline-block;
   text-transform: uppercase;
   font-weight: bold;
-  
   color: white;
   padding: 10px 35px;
   border: 1px solid white;
@@ -139,10 +138,19 @@ main .container nav ul li{
 }
 
 main .container nav ul li a{
- 
+  display: inline-block;
+  margin-bottom: 3px;
   text-transform: uppercase;
   color: #a3a3a3;
   font-weight: bold;
+
+}
+
+.container nav ul li .active-underline{
+  height: 2px;
+  width: 44%;
+  background-color: #b5f54d;
+  margin: 0 auto;
 }
 
 
@@ -294,7 +302,7 @@ footer .player-center .bottom .status-bar .avanzamento{
 footer .player-center .bottom .status-point{
   position: absolute;
   top: 0;
-  left: 35%;
+  left: 37%;
 }
 
 /* condivisi */
