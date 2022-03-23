@@ -19,6 +19,7 @@ main{
   flex-shrink: 0;
   position: relative;
   z-index: 988;
+  background-color: black;
 }
 
 .container{

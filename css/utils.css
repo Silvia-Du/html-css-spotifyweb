@@ -15,3 +15,9 @@
 .wrap{
   flex-wrap: wrap;
 }
+
+.active{
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+}

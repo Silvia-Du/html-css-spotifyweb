@@ -12,11 +12,11 @@ main .aside-col .logo{
 }
 
 main .aside-col .menu{
-  height: calc(100% - 160px);
+  height: calc(100% - 130px);
 }
 
 main .aside-col .bottom{
-  height: 100px; 
+  height: 70px; 
 }
 
 main .aside-col .logo img{
@@ -28,12 +28,67 @@ main .aside-col .menu .item{
 }
 
 main .aside-col .menu img{
-  height: 30px;
+  height: 27px;
   vertical-align: middle;
 }
 
-main .aside-col .menu span{
-  color: #797b80;
+main .aside-col span, li{
+  color: #a3a3a3;
+  font-weight: bold;
+}
+
+main .aside-col .menu .playlist{
+  padding-top: 15px;
+}
+
+main .aside-col .menu p{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  font-size: 0.85rem;
+}
+
+main .aside-col .menu .playlist p{
+  margin-bottom: 10px;
+}
+
+main .aside-col .menu .playlist i{
+  font-size: 1.3rem;
+  background-color: #a3a3a3;
+  padding: 8px;
+}
+
+main .aside-col .menu .playlist ul li{
+  display: block;
+  margin-bottom: 15px;
+  color: #a3a3a3;
+}
+
+main .aside-col .menu #plus{
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+main .aside-col .menu #plus span{
+  margin-left: 5px;
+}
+
+main .aside-col .bottom .cta{
+  padding-bottom: 7px;
+  margin-bottom: 7px;
+  border-bottom: 1px solid #a3a3a3;
+}
+
+main .aside-col .bottom .cta img{
+  height: 20px;
+  vertical-align: middle;
+}
+
+main .aside-col .bottom .profile img{
+  height: 30px;
+  vertical-align: middle;
+  background-color: #a3a3a3;
+  border-radius: 50%;
 }
 
 
@@ -86,7 +141,7 @@ main .container nav ul li{
 main .container nav ul li a{
  
   text-transform: uppercase;
-  color: #797b80;
+  color: #a3a3a3;
   font-weight: bold;
 }
 
@@ -126,7 +181,7 @@ main .container .section-row .card p.title{
 
 main .container .section-row p.subtitle{
   font-size: 0.65rem;
-  color: #797b80;
+  color: #a3a3a3;
 }
 
 /* section-row Suggestion */
