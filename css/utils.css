@@ -16,10 +16,6 @@
   flex-wrap: wrap;
 }
 
-.nav-menu-active{
-  
-}
-
 
 .active{
   color: white;
@@ -27,7 +23,15 @@
   font-size: 0.8rem;
 }
 
-/* HOVER RULES */
+/* HOVER & ACTIVE RULES */
+
+.container nav ul li .active-underline{
+  height: 2px;
+  width: 44%;
+  background-color: #b5f54d;
+  margin: 0 auto;
+}
+
 
 /* overlay */
 
@@ -38,9 +42,20 @@
 
 /* nav */
 
-.container nav ul li:hover a{
+
+.container nav ul li:hover a,
+.aside-col .menu span:hover,
+.aside-col .menu .playlist li:hover,
+.aside-col .menu .playlist #plus:hover span,
+.aside-col .bottom span:hover{
   color: white;
 }
+
+.aside-col .menu .playlist #plus:hover i{
+  background-color: white;
+}
+
+
 
 
 /* footer */
