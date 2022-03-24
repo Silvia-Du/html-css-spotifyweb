@@ -12,15 +12,17 @@ main .aside-col .logo{
 }
 
 main .aside-col #logo-small{
-  height: 29px;
+  height: 27px;
   position: absolute;
-  top: 14px;
-  left: -49px;
+  top: 10px;
+  left: 7px;
   display: none;
 }
 
 main .aside-col .menu{
   height: calc(100% - 130px);
+  display: flex;
+  flex-direction: column;
 }
 
 main .aside-col .bottom{
@@ -405,6 +407,12 @@ footer .player-right .status-point{
     width: calc((100% / 2) - 10px);
   }
 
+  
+ 
+}
+
+@media screen and (max-width: 550px){
+
   /* aside col */
 
   main .aside-col .logo{
@@ -433,6 +441,11 @@ footer .player-right .status-point{
 
   main .aside-col .bottom .cta{
     border: 0;
+    margin-bottom: 5px;
+  }
+  
+  main .aside-col .bottom .cta img{
+    margin-left: 3px;
   }
 
   main .aside-col .menu .item{
@@ -443,9 +456,25 @@ footer .player-right .status-point{
     width: 50px;
     padding: 11px;
   }
- 
+
+  main .aside-col .menu {
+    height: calc(100% - 102px);
 }
 
-@media screen and (max-width: 420px){
+.overlay{
+  width: calc(100% - 50px)
+}
+
+/* footer */
+
+footer .player-left .song{
+  margin-right: 20px;
+}
+
+footer .icon-container{
+  display: block;
+}
+
+
 
 }
