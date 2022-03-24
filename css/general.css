@@ -14,7 +14,7 @@ main{
 }
 
 .aside-col{
-  width: 215px;
+  width: 200px;
   padding: 12px;
   flex-shrink: 0;
   background-color: black;

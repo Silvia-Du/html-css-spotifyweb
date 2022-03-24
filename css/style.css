@@ -130,7 +130,7 @@ main .aside-col .bottom .profile img{
   top: 0;
   right: 0;
   z-index: 999;
-  width: calc(100% - 215px);
+  width: calc(100% - 200px);
   height: 60px;
   padding-right: 20px;
   justify-content: flex-end;
@@ -146,6 +146,7 @@ main .aside-col .bottom .profile img{
   padding: 10px 40px;
   border: 1px solid white;
   border-radius: 20px; 
+  transition: all 0.7;
 }
 
 /* main-container nav */
@@ -244,9 +245,6 @@ main .container .section-row.popular .bottom .card img{
 
 /* FOOTER */
 
-footer{
- 
-}
 /*  footer left */
 footer .player-left{
   align-items: center;
@@ -394,6 +392,10 @@ footer .player-right .status-point{
     margin-bottom: 20px;
   }
 
+  /* .section-row .bottom .card .hover-container{
+    font-size: 1rem;
+  } */
+
 }
 
 @media screen and (max-width: 568px){
@@ -466,6 +468,8 @@ footer .icon-container{
   display: block;
 }
 
+}
 
+@media screen and (max-width: 420px){
 
 }
