@@ -11,6 +11,14 @@ main .aside-col .logo{
   height: 60px;
 }
 
+main .aside-col #logo-small{
+  height: 29px;
+  position: absolute;
+  top: 14px;
+  left: -49px;
+  display: none;
+}
+
 main .aside-col .menu{
   height: calc(100% - 130px);
 }
@@ -397,7 +405,44 @@ footer .player-right .status-point{
     width: calc((100% / 2) - 10px);
   }
 
-  /* section-row suggestions */
+  /* aside col */
+
+  main .aside-col .logo{
+    height: 40px;
+  }
+
+  main .aside-col .logo #logo-big{
+    display: none;
+  }
+
+  main .aside-col .logo #logo-small{
+    display: block;
+  }
+
+  main .aside-col .menu span{
+    display: none;
+  }
+
+  main .aside-col .playlist{
+    display: none;
+  }
+
+  main .aside-col .bottom span{
+    display: none;
+  }
+
+  main .aside-col .bottom .cta{
+    border: 0;
+  }
+
+  main .aside-col .menu .item{
+    margin-right: 0;
+  }
+
+  .aside-col {
+    width: 50px;
+    padding: 11px;
+  }
  
 }
 

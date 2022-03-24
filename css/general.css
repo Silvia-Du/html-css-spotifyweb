@@ -18,6 +18,7 @@ main{
   padding: 15px;
   flex-shrink: 0;
   background-color: black;
+  position: relative;
 }
 
 .container{
