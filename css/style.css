@@ -25,7 +25,7 @@ main .aside-col .menu{
 }
 
 main .aside-col .bottom{
-  height: 70px; 
+  height: 75px; 
 }
 
 main .aside-col .logo img{
@@ -180,19 +180,9 @@ main .container .section-row{
 }
 
 main .container .section-row .card{
-  position: relative;
   width: calc((100% / 6) - 15px);
   margin-right: 15px;
   text-align: center;
-}
-
-main .container .section-row .card .fa-circle-play{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3rem;
-  color: white;
 }
 
 main .container .section-row h2{
@@ -237,10 +227,30 @@ main .container .section-row.popular .bottom .card img{
 
 /* play-overlay */
 
-.container .section-row .bottom .play-overlay{
+.container .section-row .bottom .hover-container{
+  position: relative;
   width: 100%;
-
 }
+
+.section-row .bottom .hover-container .play-hoverlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.section-row .bottom .hover-container .play-hoverlay i{
+  font-size: 2rem;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 
 /* FOOTER */
 
