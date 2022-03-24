@@ -16,7 +16,7 @@ main{
 .aside-col{
   width: 200px;
   height: 100%;
-  padding: 12px;
+  padding: 12px 12px 0 12px;
   flex-direction: column;
   flex-shrink: 0;
   background-color: black;

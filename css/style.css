@@ -24,6 +24,7 @@ main .aside-col .menu{
 
 main .aside-col .bottom{
   height: 75px; 
+  margin-bottom: 3px;
 }
 
 
@@ -370,6 +371,10 @@ footer .player-right .status-point{
   left: 31%;
 }
 
+/* in aggiunta */
+
+footer .player-right 
+
 
 /* MEDIA */
 
@@ -413,7 +418,7 @@ footer .player-right .status-point{
   /* aside col */
   .aside-col{
     width: 50px;
-    padding: 11px;
+    padding: 11px 11px 0 11px;
   }
 
   main .aside-col .logo{
@@ -431,6 +436,10 @@ footer .player-right .status-point{
 
   main .aside-col .logo #logo-small{
     display: block;
+  }
+
+  main .aside-col .bottom{
+    height: 60px;
   }
 
   main .aside-col .bottom .cta{
@@ -470,4 +479,12 @@ footer .player-right .status-point{
 
 @media screen and (max-width: 420px){
   
+  footer .player-right .status-bar,
+  footer .player-right i{
+    display: none;
+  }
+
+
+
+
 }
