@@ -62,8 +62,12 @@ footer .player-left i:hover{
 
 /* section card */
 
-main .container .section-row .card img:hover{
-  filter: brightness(60%);
+.section-row .bottom .card:hover .fa-circle-play{
+  display: block;
+}
+
+.section-row .bottom .card:hover img{
+  filter: brightness(65%);
 }
 
 /* footer */

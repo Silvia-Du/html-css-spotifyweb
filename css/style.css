@@ -232,25 +232,15 @@ main .container .section-row.popular .bottom .card img{
   width: 100%;
 }
 
-.section-row .bottom .hover-container .play-hoverlay{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-.section-row .bottom .hover-container .play-hoverlay i{
-  font-size: 2rem;
-  color: white;
+.section-row .bottom .card .hover-container  i{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: rgb(238, 234, 234);
+  display: none;
 }
-
-
 
 /* FOOTER */
 
