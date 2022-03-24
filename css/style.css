@@ -62,7 +62,7 @@ main .aside-col .menu .playlist i{
 
 main .aside-col .menu .playlist ul li{
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
   color: #a3a3a3;
   cursor: pointer;
 }
@@ -96,14 +96,12 @@ main .aside-col .bottom .profile img{
   vertical-align: middle;
   background-color: #a3a3a3;
   border-radius: 50%;
-  cursor: pointer;
 }
 
 .aside-col .bottom .profile span{
   color: white;
   font-size: 0.85rem;
   margin-left: 7px;
-  cursor: pointer;
 }
 
 
@@ -169,8 +167,8 @@ main .container .section-row{
 }
 
 main .container .section-row .card{
-  width: calc((100% / 6) - 3%);
-  margin-right: 3%;
+  width: calc((100% / 6) - 15px);
+  margin-right: 15px;
   text-align: center;
 }
 
@@ -206,7 +204,7 @@ main .container .section-row p.subtitle{
 
 .container .section-row.suggestions .bottom .card,
 .container .section-row.popular .bottom .card{
-  width: calc((100% / 5.5) - 2%);
+  width: calc((100% / 5.5) - 15px);
 }
 
 /* section-row Popular */
@@ -240,7 +238,7 @@ footer .player-left i,
 footer .player-right i{
   color: #a3a3a3;
   margin-right: 15px;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
 }
 
 footer .player-left .title{
@@ -281,6 +279,7 @@ footer .player-center .top i{
   color: white;
   margin: 0 13px;
   font-size: 0.9rem;
+  cursor: pointer;
 }
 
 footer .player-center .top i.fa-circle-play{
@@ -308,7 +307,7 @@ footer .player-center .bottom .status-bar .avanzamento{
 footer .player-center .bottom .status-point{
   position: absolute;
   top: 0;
-  left: 37%;
+  left: 36%;
 }
 
 /* condivisi */
@@ -368,8 +367,8 @@ footer .player-right .status-point{
   main .container .section-row.recently .card,
   main .container .section-row.suggestions .bottom .card,
   main .container .section-row.popular .bottom .card {
-    width: calc((100% / 4) - 2%);
-    margin-right: 2%;
+    width: calc((100% / 4) - 10px);
+    margin-right: 10px;
     margin-bottom: 20px;
   }
 
@@ -381,7 +380,7 @@ footer .player-right .status-point{
   main .container .section-row.recently .card,
   main .container .section-row.suggestions .bottom .card,
   main .container .section-row.popular .bottom .card {
-    width: calc((100% / 2) - 2%);
+    width: calc((100% / 2) - 10px);
   }
 
   /* section-row suggestions */

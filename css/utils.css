@@ -36,8 +36,7 @@
 /* overlay */
 
 .overlay .btn:hover{
-  padding: 10px 37px;
-  font-size: 0.8rem;
+  transform: scale(1.1)
 }
 
 /* nav */
@@ -47,7 +46,13 @@
 .aside-col .menu span:hover,
 .aside-col .menu .playlist li:hover,
 .aside-col .menu .playlist #plus:hover span,
-.aside-col .bottom span:hover{
+.aside-col .bottom span:hover,
+footer .player-right i:hover{
+  color: white;
+  font-weight: 800;
+}
+
+footer .player-left i:hover{
   color: white;
 }
 
@@ -55,10 +60,18 @@
   background-color: white;
 }
 
-
-
-
 /* footer */
+
+footer .player-left .song .subtitle:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+footer .player-center .top i.fa-circle-play:hover{
+  transform: scale(1.2)
+}
+
+/* footer bar */
 footer .player-center .bottom:hover .status-point,
 footer .player-right .status-bar:hover .status-point{
   display: block;
