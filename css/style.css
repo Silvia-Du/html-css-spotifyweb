@@ -43,6 +43,7 @@ main .aside-col .menu .item{
 
 main .aside-col .menu img{
   height: 25px;
+  margin-right: 5px;
 }
 
 main .aside-col span, li{
@@ -152,15 +153,18 @@ main .aside-col .bottom .profile img{
 /* main-container nav */
 
 main .container nav{
-  justify-content: center;
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
   background-color: #141922;
 }
 
+main .container nav ul{
+  justify-content: center;
+}
+
 main .container nav ul li{
-  margin: 10px;
+  margin: 7px;
 }
 
 main .container nav ul li a{
@@ -374,7 +378,6 @@ footer .player-right .status-point{
 }
 
 
-
 /* MEDIA */
 
 @media screen and (max-width: 768px){
@@ -405,68 +408,67 @@ footer .player-right .status-point{
   main .container .section-row.suggestions .bottom .card,
   main .container .section-row.popular .bottom .card {
     width: calc((100% / 2) - 10px);
-  }
-
-  
+  } 
  
 }
 
 @media screen and (max-width: 550px){
 
   /* aside col */
-
-  main .aside-col .logo{
-    height: 40px;
-  }
-
-  main .aside-col .logo #logo-big,
-  main .aside-col .menu span,
-  main .aside-col .playlist,
-  main .aside-col .menu .plus-playlist,
-  main .aside-col .bottom span{
-    display: none;
-  }
-
-  main .aside-col .logo #logo-small{
-    display: block;
-  }
-
-  main .aside-col .bottom .cta{
-    border: 0;
-    margin-bottom: 5px;
-  }
-  
-  main .aside-col .bottom .cta img{
-    margin-left: 3px;
-    margin-right: 0;
-  }
-
-  main .aside-col .menu .item{
-    margin-right: 0;
-  }
-
   .aside-col {
     width: 50px;
     padding: 11px;
   }
 
-  main .aside-col .menu {
-    height: calc(100% - 102px);
-}
+  main .aside-col .logo{
+    height: 40px;
+  }
 
-.overlay{
-  width: calc(100% - 50px)
-}
+  .aside-col .logo #logo-big,
+  .aside-col .menu span,
+  .aside-col .playlist,
+  .aside-col .menu .plus-playlist,
+  .aside-col .bottom span,
+  .aside-col .menu .item .aside-green.border-active{
+    display: none;
+  }
+
+  .aside-col .logo #logo-small{
+    display: block;
+  }
+
+  .aside-col .bottom .cta{
+    border: 0;
+    margin-bottom: 5px;
+  }
+  
+  .aside-col .bottom .cta img{
+    margin-left: 3px;
+    margin-right: 0;
+  }
+
+  .aside-col .menu .item,
+  .aside-col .menu img{
+    margin-right: 0;
+  }
+
+  .aside-col .menu {
+    height: calc(100% - 102px);
+  }
+
+  .overlay{
+    width: calc(100% - 50px)
+  }
 
 /* footer */
 
-footer .player-left .song{
-  margin-right: 20px;
-}
+  footer .player-left .song{
+    margin-right: 20px;
+  }
 
-footer .icon-container{
-  display: block;
-}
+  footer .icon-container{
+    display: block;
+  }
 
 }
 
