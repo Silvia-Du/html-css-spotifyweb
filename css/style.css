@@ -1,9 +1,3 @@
-/* MAIN */
-
-
-
-
-
 
 /* ASIDE */
 
@@ -118,14 +112,13 @@ main .aside-col .bottom .profile img{
   margin-left: 7px;
 }
 
+/*
 
+CONTAINER 
 
+*/
 
-/* CONTAINER */
-
-
-
-/* overlay */
+/* OVERLAY */
 .overlay{
   position: fixed;
   top: 0;
@@ -150,7 +143,7 @@ main .aside-col .bottom .profile img{
   transition: all 0.7;
 }
 
-/* main-container nav */
+/* MAIN-NAV */
 
 main .container nav{
   width: 100%;
@@ -176,7 +169,7 @@ main .container nav ul li a{
 
 }
 
-/* section-row & card */
+/* SECTION-ROW & CARD */
 
 
 main .container .section-row{
@@ -382,14 +375,13 @@ footer .player-right .status-point{
 
 @media screen and (max-width: 768px){
 
-  /* section-row recently */
-  main .container .section-row .bottom {
+  main .container .section-row .bottom{
     flex-wrap: wrap;
   }
 
   main .container .section-row.recently .card,
   main .container .section-row.suggestions .bottom .card,
-  main .container .section-row.popular .bottom .card {
+  main .container .section-row.popular .bottom .card{
     width: calc((100% / 4) - 10px);
     margin-right: 10px;
     margin-bottom: 20px;
@@ -406,7 +398,7 @@ footer .player-right .status-point{
   /* section-row recently */
   main .container .section-row.recently .card,
   main .container .section-row.suggestions .bottom .card,
-  main .container .section-row.popular .bottom .card {
+  main .container .section-row.popular .bottom .card{
     width: calc((100% / 2) - 10px);
   } 
 
@@ -419,7 +411,7 @@ footer .player-right .status-point{
 @media screen and (max-width: 550px){
 
   /* aside col */
-  .aside-col {
+  .aside-col{
     width: 50px;
     padding: 11px;
   }
@@ -477,5 +469,5 @@ footer .player-right .status-point{
 }
 
 @media screen and (max-width: 420px){
-
+  
 }
