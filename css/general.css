@@ -10,12 +10,12 @@ body{
 main{
   width: 100%;
   height: calc(100vh - 60px);
-  font-size: 0.65rem;
+  font-size: 0.6rem;
 }
 
 .aside-col{
   width: 215px;
-  padding: 15px;
+  padding: 12px;
   flex-shrink: 0;
   background-color: black;
   position: relative;

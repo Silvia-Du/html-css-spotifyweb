@@ -32,6 +32,14 @@
   margin: 0 auto;
 }
 
+.aside-col .menu .item .border-active{
+  height: 25px;
+  width: 2px;
+  background-color: #b5f54d;
+  position: absolute;
+  left: 0;
+}
+
 
 /* overlay */
 
