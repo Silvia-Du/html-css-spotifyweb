@@ -60,6 +60,12 @@ footer .player-left i:hover{
   background-color: white;
 }
 
+/* section card */
+
+main .container .section-row .card img:hover{
+  filter: brightness(60%);
+}
+
 /* footer */
 
 footer .player-left .song .subtitle:hover{
