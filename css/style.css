@@ -11,6 +11,10 @@ main .aside-col .logo{
   height: 60px;
 }
 
+main .aside-col .logo img{
+  width: 65%;
+}
+
 main .aside-col #logo-small{
   height: 27px;
   position: absolute;
@@ -28,9 +32,6 @@ main .aside-col .bottom{
   height: 75px; 
 }
 
-main .aside-col .logo img{
-  width: 73%;
-}
 
 main .aside-col .menu .item{
   margin-bottom: 12px;
@@ -39,7 +40,7 @@ main .aside-col .menu .item{
 }
 
 main .aside-col .menu img{
-  height: 27px;
+  height: 25px;
   vertical-align: middle;
 }
 
@@ -60,17 +61,14 @@ main .aside-col .menu p{
   text-transform: uppercase;
   font-weight: bold;
   color: white;
-  font-size: 0.85rem;
-}
-
-main .aside-col .menu .plus-playlist p{
+  font-size: 0.75rem;
   margin-bottom: 10px;
 }
 
 main .aside-col .menu .plus-playlist i{
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   background-color: #a3a3a3;
-  padding: 8px;
+  padding: 6px;
 }
 
 main .aside-col .menu .playlist ul li{
@@ -87,7 +85,7 @@ main .aside-col .menu #plus{
 }
 
 main .aside-col .menu #plus span{
-  margin-left: 10px;
+  margin-left: 5px;
   cursor: pointer;
 }
 
@@ -100,6 +98,7 @@ main .aside-col .bottom .cta{
 
 main .aside-col .bottom .cta img{
   height: 20px;
+  margin-right: 3px;
   vertical-align: middle;
 }
 
@@ -253,14 +252,14 @@ footer .player-left{
 }
 
 footer .player-left .song{
-  margin-right: 35px;
+  margin-right: 25px;
 }
 
 footer .player-left i,
 footer .player-right i{
   color: #a3a3a3;
   margin-right: 15px;
-  font-size: 0.85rem;
+  font-size: 0.7rem;
 }
 
 footer .player-left .title{
@@ -287,7 +286,7 @@ footer .player-center{
 }
 
 footer .player-center .top{
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 footer .player-center .top,
@@ -300,12 +299,12 @@ footer .player-right{
 footer .player-center .top i{
   color: white;
   margin: 0 13px;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   cursor: pointer;
 }
 
 footer .player-center .top i.fa-circle-play{
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 footer .player-center .bottom{
@@ -436,6 +435,7 @@ footer .player-right .status-point{
   
   main .aside-col .bottom .cta img{
     margin-left: 3px;
+    margin-right: 0;
   }
 
   main .aside-col .menu .item{
