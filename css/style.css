@@ -20,8 +20,7 @@ main .aside-col #logo-small{
 }
 
 main .aside-col .menu{
-  height: calc(100% - 130px);
-  display: flex;
+  height: calc(100% - 124px);
   flex-direction: column;
 }
 
@@ -50,7 +49,11 @@ main .aside-col span, li{
 }
 
 main .aside-col .menu .playlist{
-  padding-top: 15px;
+  overflow: auto;
+}
+
+main .aside-col .menu .plus-playlist{
+  padding-top: 20px;
 }
 
 main .aside-col .menu p{
@@ -60,11 +63,11 @@ main .aside-col .menu p{
   font-size: 0.85rem;
 }
 
-main .aside-col .menu .playlist p{
+main .aside-col .menu .plus-playlist p{
   margin-bottom: 10px;
 }
 
-main .aside-col .menu .playlist i{
+main .aside-col .menu .plus-playlist i{
   font-size: 1.3rem;
   background-color: #a3a3a3;
   padding: 8px;
@@ -183,8 +186,6 @@ main .container .section-row .card{
   text-align: center;
 }
 
-
-
 main .container .section-row .card .fa-circle-play{
   position: absolute;
   top: 50%;
@@ -204,9 +205,6 @@ main .container .section-row .card img{
   width: 100%;
   margin-bottom: -3px;
 }
-
-
-
 
 main .container .section-row .card p.title{
   font-weight: bold;
@@ -419,24 +417,16 @@ footer .player-right .status-point{
     height: 40px;
   }
 
-  main .aside-col .logo #logo-big{
+  main .aside-col .logo #logo-big,
+  main .aside-col .menu span,
+  main .aside-col .playlist,
+  main .aside-col .menu .plus-playlist,
+  main .aside-col .bottom span{
     display: none;
   }
 
   main .aside-col .logo #logo-small{
     display: block;
-  }
-
-  main .aside-col .menu span{
-    display: none;
-  }
-
-  main .aside-col .playlist{
-    display: none;
-  }
-
-  main .aside-col .bottom span{
-    display: none;
   }
 
   main .aside-col .bottom .cta{
