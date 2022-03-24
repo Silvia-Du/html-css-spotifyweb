@@ -371,11 +371,6 @@ footer .player-right .status-point{
   left: 31%;
 }
 
-/* in aggiunta */
-
-footer .player-right 
-
-
 /* MEDIA */
 
 @media screen and (max-width: 768px){
@@ -483,8 +478,5 @@ footer .player-right
   footer .player-right i{
     display: none;
   }
-
-
-
 
 }
